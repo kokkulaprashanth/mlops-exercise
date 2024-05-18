@@ -1,8 +1,8 @@
 import pandas as pd
 import joblib
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import LabelEncoder
+from scikit-learn.model_selection import train_test_split
+from scikit-learn.linear_model import LogisticRegression
+from scikit-learn.preprocessing import LabelEncoder
 
 def load_data(filepath):
     return pd.read_csv(filepath)
